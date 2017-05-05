@@ -7,3 +7,4 @@ node_name                "sohelahmed54"
 client_key               "#{current_dir}/sohelahmed54.pem"
 chef_server_url          "https://api.chef.io/organizations/johnin"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor] = "vim"
